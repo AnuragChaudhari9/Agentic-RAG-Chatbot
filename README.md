@@ -20,7 +20,7 @@ Built with modular agents, powered by GPT-4, and orchestrated using a custom Mod
 ---
 
 ## Project Structure
-
+```
 agentic_rag_chatbot/
 ├── agents/
 │ ├── ingestion_agent.py # Loads and parses documents
@@ -30,12 +30,11 @@ agentic_rag_chatbot/
 ├── core/
 │ ├── mcp_protocol.py # Message structure and MCP protocol logic
 │ └── chunker.py # Smart text chunking logic
-├── docs/ # Sample documents and screenshots
 ├── app.py # Streamlit UI
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
-└── demo_video.mp4 # Optional demo video
 
+```
 ---
 
 ## Tech Stack
